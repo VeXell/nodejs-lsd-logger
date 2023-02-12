@@ -1,0 +1,32 @@
+{
+    "name": "nodejs-lsd-consumer",
+    "version": "1.0.0",
+    "description": "Node.js consumer for LSD Server https://github.com/badoo/lsd",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc -p tsconfig.json",
+        "watch": "tsc -w -p tsconfig.json"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/VeXell/nodejs-lsd-consumer.git"
+    },
+    "keywords": [
+        "lsd"
+    ],
+    "author": "Viacheslav Volkov (vexell@gmail.com)",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/VeXell/nodejs-lsd-consumer/issues"
+    },
+    "homepage": "https://github.com/VeXell/nodejs-lsd-consumer#readme",
+    "devDependencies": {
+        "@types/fs-ext": "^2.0.0",
+        "@types/node": "^18.13.0",
+        "tslib": "^2.5.0",
+        "typescript": "^4.9.5"
+    },
+    "dependencies": {
+        "fs-ext": "^2.0.0"
+    }
+}
