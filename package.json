@@ -1,15 +1,17 @@
 {
-    "name": "nodejs-lsd-consumer",
+    "name": "nodejs-lsd-logger",
     "version": "1.0.0",
-    "description": "Node.js consumer for LSD Server https://github.com/badoo/lsd",
+    "description": "Node.js logger for LSD Server https://github.com/badoo/lsd",
     "main": "dist/index.js",
+    "types": "dist/index.d.ts",
     "scripts": {
+        "prebuild": "rm -rf ./dist",
         "build": "tsc -p tsconfig.json",
         "watch": "tsc -w -p tsconfig.json"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/VeXell/nodejs-lsd-consumer.git"
+        "url": "git+https://github.com/VeXell/nodejs-lsd-logger.git"
     },
     "keywords": [
         "lsd"
@@ -17,9 +19,9 @@
     "author": "Viacheslav Volkov (vexell@gmail.com)",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/VeXell/nodejs-lsd-consumer/issues"
+        "url": "https://github.com/VeXell/nodejs-lsd-logger/issues"
     },
-    "homepage": "https://github.com/VeXell/nodejs-lsd-consumer#readme",
+    "homepage": "https://github.com/VeXell/nodejs-lsd-logger#readme",
     "devDependencies": {
         "@types/fs-ext": "^2.0.0",
         "@types/node": "^18.13.0",
