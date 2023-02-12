@@ -1,6 +1,6 @@
 {
     "name": "nodejs-lsd-logger",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Node.js logger for LSD Server https://github.com/badoo/lsd",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -14,7 +14,12 @@
         "url": "git+https://github.com/VeXell/nodejs-lsd-logger.git"
     },
     "keywords": [
-        "lsd"
+        "lsd",
+        "log",
+        "logger",
+        "logging",
+        "logs",
+        "logging-library"
     ],
     "author": "Viacheslav Volkov (vexell@gmail.com)",
     "license": "ISC",
