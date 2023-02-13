@@ -1,9 +1,13 @@
 {
     "name": "nodejs-lsd-logger",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Node.js logger for LSD Server https://github.com/badoo/lsd",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
+    "files": [
+        "README.md",
+        "dist/"
+    ],
     "scripts": {
         "prebuild": "rm -rf ./dist",
         "build": "tsc -p tsconfig.json",
